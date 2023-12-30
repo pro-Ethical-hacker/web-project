@@ -1,0 +1,66 @@
+<!-- navbar.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Page Title</title>
+
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Optional: Bootstrap JS and Popper.js (for dropdowns) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed top-0 w-100" style="z-index: 1000;">
+        <a class="navbar-brand mx-5" style="color:cornflowerblue;" href="#">YoursEduConnect</a>
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse px-5" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active mx-3" aria-current="page" href="http://127.0.0.1:5000/home">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-3" href="http://127.0.0.1:5000/about">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-3" href="http://127.0.0.1:5000/filter">
+                  Courses
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-3" href="http://127.0.0.1:5000/contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+      
+            <a href="http://127.0.0.1:5000/signin">
+              <button class="btn btn-dark w-100 round-circle mx-auto">Logout</button>
+            </a>
+          </div>
+        </div>
+      </nav>
+</body>
+
+</html>
